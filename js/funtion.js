@@ -18,6 +18,8 @@ function numeroMenor(lista){
 
 
 
+
+
 //EJERCICIO 2
 /*
 function parImpar(num){
@@ -32,9 +34,11 @@ parImpar(parseInt(prompt("ingrese el numero")));
 
 
 
+
+
 //EJERCICIO 3
 
-
+/*
 var numeros = [];
  
 numeros.push(prompt("Introduce el primer número: "));
@@ -46,10 +50,23 @@ var ordenados = numeros.sort(function (a,b) {
 });
  
 alert(ordenados);
+*/
 
 
 
 
+//EJERCICIO 4 Mayusculas minusculas
+/*NO LO PUDE HACER
+function mayusMin(cadena1,cadena2,cadena3){
+	if(cadena1 == cadena1.toUpperCase() || cadena2==cadena2.toUpperCase()){
+		return (document.write("Es Mayucula"));
+	}else{
+		return (document.write("Es minuscula"));
+	}
+}
+mayusMin("alisson ","ALISSON","vaneza");
 
+*/
 
+//EJERCICIO 6
 
