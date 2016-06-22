@@ -143,25 +143,7 @@ alert(cuadrados(a,b));
 //EJERCICIO 8
 
 /*
-function numPrimo(a){
-	for(var i = 2 ; i<a ; i++){
-		if(a*1==a)
-	}	
-
-}
-a = parseInt(prompt("Ingrese el numero "));
-numPrimo(a);
-
-var primo;
-	primo = true ; 
-	for(var i = 2 ; i<a ; i++){
-		if(a%i==0){
-			primo = false ; 
-		}else{
-			primo = true;
-		} 
-	}
-	 return (document.write(primo));
+No pude sacer el numero primo
 */
 
 
@@ -190,15 +172,22 @@ multiplo(a);
 
 //EJERCICIO 10
 
-
+/*
 function cantidad(numero){
-	var resultado ;
-	resultado = numero.split(",");
-	return document.write(resultado);
+	var div , i , res ;
+	div = 10 ; 
+	res= 0;
+	i = 0 ;  
+	do{
+		res = numero/div ; 
+		i++;
+		div = div*10 ; 
+	}while(res>=1);
+	return alert(i);
 }
 numero = parseInt(prompt("ingrese los numero"));
 cantidad(numero);
-
+*/
 
 
 
