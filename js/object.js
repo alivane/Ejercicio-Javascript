@@ -33,7 +33,11 @@ factura.mostrar = function(){
 	alert(importe);
 }
 */
+
+
+
 //EJERCICIO 2
+
 /*
 var monthActual = {
 	firstCuatrimes : ["January","February","March","April"],
@@ -61,6 +65,50 @@ var monthActual = {
 }
 var month = prompt("Ingrese el mes actual","January,February,March,April ...");
 monthActual.current();
-
 */
+
+
+
+//EJERCICIO 3
+/*
+var future = {
+	value : parseInt(prompt("Ingrese el valor")),
+	tasa : parseInt(prompt("Ingrese el valor de tasa")),
+	period : parseInt(prompt("Ingrese el periodo")),
+	resultado : this.value*((1+this.tasa)/(100*this.period))
+}
+document.write("Valor = "+future.value+"<br>");
+document.write("Tasa = "+future.tasa+"<br>");
+document.write("Periodo = "+future.period+"<br>");
+document.write("Resultado = "+future.resultado);
+*/
+
+
+//EJERCICIO 4
+/*
+var circle = {
+	radio : parseInt(prompt("Ingrese el radio")),
+	area : function(){
+		var total =  3.1416*this.radio*this.radio;
+		return total;
+	},
+	longitud : function(){
+		var total =  this.radio*2;
+		return total;
+	}
+}
+document.write(circle.area()+" es el area del circulo"+"<br>");
+document.write(circle.longitud()+" es la longitud del circulo"+"<br>");
+*/
+
+
+//EJERCICIO 5
+/*
+var numtelephone = {
+	number : parseInt(prompt("ingrese el numero telefonico"))
+}
+document.write("El numero es "+numtelephone.number);
+*/
+
+
 
